@@ -1,0 +1,102 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #f1e6eb;
+  color: #2b303a;
+}
+
+h1 {
+  text-align: center;
+  font-family: Monospace;
+  margin: 1rem 0 3rem 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+/*Styling for the Reset Button*/
+button {
+  padding: 8px 16px;
+  background-color: yellowgreen;
+  border: none;
+  cursor: pointer;
+  color: #cc1919;
+  border-radius: 4px;
+}
+
+/*Styling for when the CURSOR Hovers the RESET Button it turns into a DIFFERENT COLOR*/
+button:hover {
+  background-color: yellow;
+}
+
+/*Styling the WIDTH of the Boxes that the TEAM NAME and SCORE are in*/
+/*STyling the Box itself (boarder radius) changes the box into a circle*/
+/*Styling (Display) centers the contents in the Square */
+/*Styling (flex-direction) makes our Two Squares that hold our content into a Column or ROw*/
+section {
+  min-width: 20rem;
+  border: thin solid #7c7c7c;
+  border-radius: 0.3rem;
+  margin-bottom: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section h2,
+section p {
+  text-align: none;
+}
+
+/* This for styling the Teams SCORES: which has the SCORE*/
+section h3 {
+  margin: 2rem 0;
+  font-family: Monospace;
+  font-size: 4rem;
+}
+/* Styling for the Name and plus and Minus*/
+fieldset {
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+}
+
+/*styling for the name space ONLY */
+fieldset input {
+  padding: 0.5rem;
+}
+/*Styling for the box size around the Team and Score*/
+fieldset i {
+  margin: 0 0.2rem;
+}
+
+/*Styling for the COLOR of the PLUS Sign*/
+fieldset i.add {
+  cursor: pointer;
+  color: green;
+}
+/*Styling when the CURSOR hovers over the ADD Button*/
+fieldset i.add:hover {
+  background-color: yellow;
+}
+
+/*Styling for the COLOR of the MINUS Sign*/
+fieldset i.subtract {
+  cursor: pointer;
+  color: #f64545;
+}
+/*Styling when the CURSOR hovers the subtract button*/
+fieldset i.subtract:hover {
+  background-color: yellow;
+}
