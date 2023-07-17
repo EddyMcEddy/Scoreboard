@@ -100,3 +100,7 @@ fieldset i.subtract {
 fieldset i.subtract:hover {
   background-color: yellow;
 }
+
+h3.taken {
+  cursor: not-allowed;
+}
